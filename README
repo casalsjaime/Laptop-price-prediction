@@ -18,26 +18,6 @@ El objetivo es construir un modelo capaz de **predecir el precio** de un ordenad
 ## 📊 Dataset
 
 Dataset descargado desde la competición **"TuMejorPortátil.com"**.  
-Contiene más de **1300 portátiles** con información como:# 💻 Laptop Price Prediction – Kaggle Competition Project
-
-Este proyecto fue desarrollado utilizando datos del concurso de Kaggle  
-👉 https://www.kaggle.com/competitions/tumejorportatilcom/
-
-El objetivo es construir un modelo capaz de **predecir el precio** de un ordenador portátil en función de sus especificaciones técnicas.
-
----
-
-## 🎯 Objetivo
-
-📌 Comprender qué factores influyen en el precio de los portátiles  
-📌 Desarrollar un modelo predictivo de regresión  
-📌 Aplicación real al negocio: pricing en e-commerce
-
----
-
-## 📊 Dataset
-
-Dataset descargado desde la competición **"TuMejorPortátil.com"**.  
 Contiene más de **1300 portátiles** con información como:
 
 - Marca y tipo de producto
@@ -82,49 +62,4 @@ por lo que el error relativo es razonable y útil para la toma de decisiones com
 
 ---
 
-## 📂 Estructura del proyecto
-
-
-
-- Marca y tipo de producto
-- Tamaño y resolución de pantalla
-- Procesador (CPU)
-- GPU
-- RAM
-- Tipo de almacenamiento
-- Sistema operativo
-- Peso
-- Precio (variable objetivo)
-
----
-
-## 🧠 Modelos utilizados
-
-Se entrenaron modelos de regresión incluyendo:
-
-- Regresión Lineal
-- Árbol de Decisión
-- Random Forest ✅ (modelo final)
-
----
-
-## ✅ Resultados del modelo
-
-| Modelo Final | MAE | Justificación |
-|-------------|-----|---------------|
-| Random Forest | **196.87 €** | Buen rendimiento considerando la gran variabilidad de precios |
-
-➡️ Los precios oscilan entre **~400 € y más de 3000 €**,  
-por lo que el error relativo es razonable y útil para la toma de decisiones comerciales ✅
-
----
-
-## 🔧 Tecnologías utilizadas
-
-- Python 3
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib
-
----
 
